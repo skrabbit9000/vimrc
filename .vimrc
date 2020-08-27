@@ -163,11 +163,4 @@ let content = [
 let opts = {'title': 'Select One'}
 map <silent> <F12> :call quickui#listbox#open(content, opts)<CR>
 
-"###########################################
-"Old crap.
-"command Fxml :% !C:/Ruby193/bin/ruby.exe C:/Users/MHansen.WORKGROUPS/utils/xmlformat/xmlformat.rb
-
-"xml folding
-"let g:xml_syntax_folding=1
-"au FileType xml setlocal foldmethod=syntax
 
